@@ -47,7 +47,7 @@ class Hand_Weapon : public Weapon // Ручное оружие
 {
 public:
 	virtual void attack() override { std::cout << "Оружие, атака\n"; }
-	virtual void broke() override { std::cout << "Оружие, ломаца\n"; }
+	virtual void broke() override { std::cout << "Оружие, ломатца\n"; }
 	virtual void protection() = 0;
 };
 class Sword final : public  Hand_Weapon // Мечь
